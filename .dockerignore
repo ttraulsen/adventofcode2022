@@ -1,0 +1,9 @@
+**/.git
+.env
+
+*Dockerfile*
+*docker-compose*
+
+coverage
+.gitlab
+config
