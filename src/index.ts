@@ -1,13 +1,16 @@
 //import { day1Task1, day1Task2 } from './day1/day1';
-import { day2Task1, day2Task2 } from './day2/day2';
+// import { day2Task1, day2Task2 } from './day2/day2';
+import { day3Task1, day3Task2 } from './day3/day3';
 import fs from 'fs';
 import path from 'path';
 
 const tasks = [
   //  { input: 'day1/input.txt', function: day1Task1, label: 'day1 - task1' },
   //  { input: 'day1/input.txt', function: day1Task2, label: 'day1 - task2' },
-  { input: 'day2/input.txt', function: day2Task1, label: 'day2 - task1' },
-  { input: 'day2/input.txt', function: day2Task2, label: 'day2 - task2' },
+  // { input: 'day2/input.txt', function: day2Task1, label: 'day2 - task1' },
+  // { input: 'day2/input.txt', function: day2Task2, label: 'day2 - task2' },
+  { input: 'day3/input.txt', function: day3Task1, label: 'day3 - task1' },
+  { input: 'day3/input.txt', function: day3Task2, label: 'day3 - task2' },
 ];
 
 function readInputFile(input: string): string[] {
