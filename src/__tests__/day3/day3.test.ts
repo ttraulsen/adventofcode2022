@@ -10,7 +10,7 @@ const testInput = [
 ];
 
 describe('day3', () => {
-  test.each([
+  it.each([
     { char: 'a', value: 1 },
     { char: 'A', value: 27 },
     { char: 'z', value: 26 },

@@ -12,7 +12,7 @@ const testInput = [
 'move 1 from 1 to 2'
 ];
 
-describe('day4', () => {
+describe('day5', () => {
   it('task1 - should return CMZ as result', () => {
     const result = day5Task1(testInput);
     expect(result).toEqual('CMZ');
