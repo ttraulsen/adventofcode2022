@@ -914,8 +914,6 @@ __metadata:
   dependenciesMeta:
     dtrace-provider:
       built: true
-    husky:
-      built: true
   languageName: unknown
   linkType: soft
 
